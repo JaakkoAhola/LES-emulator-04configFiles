@@ -1,0 +1,5 @@
+trainingSimulationRootFolder : "/home/aholaj/mounttauskansiot/puhtiwork/eclair_training_simulations"
+postProsDataRootFolder : "/home/aholaj/mounttauskansiot/puhtiwork/EmulatorManuscriptData_3"
+figureFolder : "/home/aholaj/mounttauskansiot/puhtiwork/EmulatorManuscriptData_3/figures"
+tableFolder : "/home/aholaj/mounttauskansiot/puhtiwork/EmulatorManuscriptData_3/tables"
+configFile : "/home/aholaj/mounttauskansiot/puhtiwork/EmulatorManuscriptData/phase02.yaml"

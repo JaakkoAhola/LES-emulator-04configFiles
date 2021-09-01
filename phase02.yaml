@@ -1,0 +1,22 @@
+responseVariable : "w2pos"
+filteringVariablesWithConditions:
+    "w2pos" : "!=-999"
+    "cfracEndValue" : ">=0.61"
+    "cloudTopRelativeChange" : "<=1.1"
+responseIndicator: 0
+useFortran : False
+override : False
+bootStrap :
+    "sampleSize" : 115
+    "iterations" : 1000
+optimization :
+    "maxiter" : 50000
+    "n_restarts_optimizer" : 50
+boundOrdo :
+    - 1e-100
+    - 1e100
+runLeaveOneOut: False
+runBootStrap : True
+runPostProcessing : True
+kFlodSplits : 10
+permutationImportanceRepeats : 100
