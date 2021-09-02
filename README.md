@@ -1,6 +1,6 @@
 # LES-emulator-04configFiles
 
-This repository holds configuration files that are needed to produce results of Ahola et al 2021 manuscript.
+This repository holds configuration files that are needed to produce results of Ahola et al 2021 manuscript with scripts in [LES-emulator-02postpros](https://github.com/JaakkoAhola/LES-emulator-02postpros ) and [LES-emulator-03plotting](https://github.com/JaakkoAhola/LES-emulator-03plotting).
 
 [locationsMounted.yaml](locationsMounted.yaml) holds all the necessary location that are needed to produce the results.
 - **trainingSimulationRootFolder** is the location of LES runs that holds subdirectories          
@@ -13,3 +13,5 @@ This repository holds configuration files that are needed to produce results of 
 - **configFile** is the location of [phase02.yaml](phase02.yaml)
 
 [phase02.yaml](phase02.yaml) holds the hyperparameters that are used when creating parameterisations.
+
+[condaEnvironment.yaml](condaEnvironment.yaml) is the conda environment showing the python environment that the scripts in [LES-emulator-02postpros](https://github.com/JaakkoAhola/LES-emulator-02postpros ) and [LES-emulator-03plotting](https://github.com/JaakkoAhola/LES-emulator-03plotting) use.
